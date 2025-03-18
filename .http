@@ -1,0 +1,25 @@
+### Health-Check
+
+GET http://localhost:5090/health-check
+
+### 유저 목록 불러오기
+
+GET http://localhost:5090/users
+
+### 유저 하나만 불러오기
+
+GET http://localhost:5090/users/2
+
+### 유저 등록하기 (create)
+
+POST http://localhost:5090/users/
+Content-Type: application/json
+
+{
+  "email":"newtest8@test.com",
+  "name":"뉴햄스트링"
+}
+
+### 유저 삭제하기 (delete)
+
+DELETE http://localhost:5090/users/9/delete
