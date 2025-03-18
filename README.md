@@ -4,6 +4,14 @@
 
 - 사용한 원격 데이터베이스: [`render.com`](https://render.com)
 
+![image](https://github.com/user-attachments/assets/d2870fba-ae9b-4ab2-aee1-b861f9a901a6)
+
+---
+
+## 프리즈마 스튜디오 화면
+
+![image](https://github.com/user-attachments/assets/b469a2c2-8049-4e26-ac6f-ca1182ed242d)
+
 ---
 
 ## API 목록
@@ -23,8 +31,6 @@
 ---
 
 ## 프리즈마 트랜잭션 $transaction 사용
-
-- 기본적인 형태
 
 await prisma.$transaction(async (tx) => {
 // 비동기 로직 추가  
